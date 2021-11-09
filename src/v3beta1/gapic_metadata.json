@@ -1092,6 +1092,11 @@
                 "deleteVersion"
               ]
             },
+            "CompareVersions": {
+              "methods": [
+                "compareVersions"
+              ]
+            },
             "CreateVersion": {
               "methods": [
                 "createVersion"
@@ -1127,6 +1132,11 @@
             "DeleteVersion": {
               "methods": [
                 "deleteVersion"
+              ]
+            },
+            "CompareVersions": {
+              "methods": [
+                "compareVersions"
               ]
             },
             "CreateVersion": {
