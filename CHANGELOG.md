@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.15.0](https://www.github.com/googleapis/nodejs-dialogflow-cx/compare/v2.14.0...v2.15.0) (2021-11-12)
+
+
+### Features
+
+* added API for changelogs docs: clarified semantic of the streaming APIs ([#198](https://www.github.com/googleapis/nodejs-dialogflow-cx/issues/198)) ([9882149](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/988214975c0b7e16fd6ca99a57697ffb0a1ff490))
+* added deployment API feat: exposed DTMF input info in the query result docs: added notes on long running operation ([#191](https://www.github.com/googleapis/nodejs-dialogflow-cx/issues/191)) ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+* added support for comparing between versions docs: clarified security settings API reference ([#201](https://www.github.com/googleapis/nodejs-dialogflow-cx/issues/201)) ([f4ca7e2](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/f4ca7e2cb06a149ab50278f692ba7a4ed1e62cc4))
+* added support for DeployFlow api under Environments ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+* added support for Deployments with ListDeployments and GetDeployment apis ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+* added support for TestCasesConfig under Environment ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+* allow setting custom CA for generic webhooks ([#203](https://www.github.com/googleapis/nodejs-dialogflow-cx/issues/203)) ([f5d8155](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/f5d8155d7070f4d1b60ba32bc2f168c4169d9546))
+* expose dtmf input info in the query result ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+
+
+### Bug Fixes
+
+* marked resource name of security setting as not-required ([5460ad4](https://www.github.com/googleapis/nodejs-dialogflow-cx/commit/5460ad46ffb774f590c8ff24816aa7f116dab112))
+
 ## [2.14.0](https://www.github.com/googleapis/nodejs-dialogflow-cx/compare/v2.13.0...v2.14.0) (2021-09-21)
 
 
